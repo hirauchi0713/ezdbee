@@ -2,7 +2,7 @@
 [![MIT License][license-image]][license-url]
 
 # 🐝 ezdbee
-An easy database.
+An easy to use database.
 
 ## INSTALL
 ```
