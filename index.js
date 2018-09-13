@@ -32,7 +32,7 @@ class EZDBee {
 
   async init() {
     if (this.json) {
-      logger.trace('init: already exists.', this.json)
+      logger.trace('init: already initialized.', this.json)
       return true
     }
     try {
