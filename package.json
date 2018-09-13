@@ -1,0 +1,21 @@
+{
+  "name": "ezdbee",
+  "version": "2.0.5",
+  "description": "A simple regex-categorized colorful console logger.",
+  "main": "ezdbee.js",
+  "repository": "https://github.com/hirauchi0713/ezdbee",
+  "author": "Hideyuki Hirauchi<hideyuki@hirauchi.com>",
+  "license": "MIT",
+  "keywords": [
+    "easy",
+    "database"
+  ],
+  "scripts": {
+    "test": "LOGLEVEL_TRACE='test' LOGLEVEL_ERROR='model/.*' LOGLEVEL_NONE='csev1,csev2,csev3' node test.js",
+    "test2": "LOGLEVEL_NONE='.*' LOGLEVEL_TRACE=test node test.js"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "gorilog": "^2.0.5"
+  }
+}
